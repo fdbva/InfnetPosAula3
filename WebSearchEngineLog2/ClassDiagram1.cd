@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebSearchEngineLog2.ConfigurationLog" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAAAABEAAA=</HashCode>
+      <FileName>ConfigurationLog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WebSearchEngineLog2.Log" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="WebSearchEngineLog2.Log.EnumLogFormatter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Log.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WebSearchEngineLog2.Log.EnumLogWritter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Log.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAAAQQAAAgAAAACAAAAAAAEACAAAAAAAAA=</HashCode>
+      <FileName>Log.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_logFormatter" />
+      <Field Name="_logWritter" />
+      <Field Name="_configurationLog" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WebSearchEngineLog2.LogFormatterDefault" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LogFormatterDefault.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WebSearchEngineLog2.LogWritterDefault" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LogWritterDefault.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WebSearchEngineLog2.SearchData" BaseTypeListCollapsed="true">
+    <Position X="1.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACAAAAAAAAAIAAAgAAAAAAAAAAAAAQAAAIAA=</HashCode>
+      <FileName>SearchData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="WebSearchEngineLog2.IConfigurationLog" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAAAABEAAA=</HashCode>
+      <FileName>IConfigurationLog.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebSearchEngineLog2.ILog" Collapsed="true">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILog.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebSearchEngineLog2.ILogFormatter" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILogFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebSearchEngineLog2.ILogWritter" Collapsed="true">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILogWritter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebSearchEngineLog2.ISearchData" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACAAAAAAAAAIAAAgAAAAAAAAAAAAAQAAAIAA=</HashCode>
+      <FileName>ISearchData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
